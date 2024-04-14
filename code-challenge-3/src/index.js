@@ -1,5 +1,6 @@
 // Your code here
 const db = "https://json-server-1-hmqv.onrender.com/films"
+
 document.addEventListener("DOMContentLoaded", () => {
     getMovies();
     document.querySelector("#buy-ticket").addEventListener("click", handleBuyTicket);
