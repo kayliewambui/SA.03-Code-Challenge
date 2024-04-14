@@ -1,5 +1,5 @@
 // Your code here
-const db = "http://localhost:3000/films"
+const db = "https://json-server-1-hmqv.onrender.com/films"
 
 document.addEventListener("DOMContentLoaded", () => {
     getMovies();
